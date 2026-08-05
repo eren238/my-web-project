@@ -57,8 +57,6 @@
 
 }
 
-
-
 .auth-background .form-container .form-wrapper .form-content {
     display: flex;
     flex-direction: column;
@@ -104,6 +102,7 @@
     font-family: body-font;
     font-size: 15px;
     color: var(--botton-color);
+    gap: 8px;
 }
 
 .auth-background .form-container .form-wrapper .text-content .top-text-wrapper .btn {
@@ -137,7 +136,6 @@
         font-size: 13px;
     }
 }
-
 @media all and (max-width: 370px) {
     .auth-background .form-container .form-wrapper .form-content .text-field {
         width: 300px;
